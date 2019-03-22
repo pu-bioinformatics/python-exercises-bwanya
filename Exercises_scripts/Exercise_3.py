@@ -18,8 +18,8 @@ d={"A" : "T", "T" : "A", "C" : "G", "G" : "C"}
 Reverse_complement=[d[i] for i in template]
 print(Reverse_complement)
 
-#"".join(Reverse) #This is an undefined variable, should have been: -1
+#"".join(Reverse) #This is an undefined variable, should have been: -1 
 
 print("".join(Reverse_complement)) 
 
-#CK: You also needed to print the reverse complement -1
+#CK: You also needed to print the reverse complement -1 

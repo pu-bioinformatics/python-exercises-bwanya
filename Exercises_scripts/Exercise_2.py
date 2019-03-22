@@ -14,5 +14,5 @@ seq="AAAAATCCCGAGGCGGCTATATAGGGCTCCGGAGGCGTAATATAAAA"
 len(seq)
 
 Restricion_site="TCCGGA"
-print(Restricion_site)
+print(Restricion_site) #CK: Add a statement to show ehat you are printing -1 
 print(seq.find(Restricion_site))

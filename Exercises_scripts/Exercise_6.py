@@ -7,8 +7,11 @@ def percentGC(seq):
     seq_length=len(seq)
     G = seq.count('G')
     C = seq.count('C')
-    percentGC = ((G+C)/seq_length)*100
-    return(percentGC)
+    percent_GC = ((G+C)/seq_length)*100 # do not use the same variable name as your function -1
+    return(percent_GC)
 
+#CK: You need to call the function -1
 
+print(percentGc(seq))
 
+## CK: You also need a function that tests if the sequence is valid -1

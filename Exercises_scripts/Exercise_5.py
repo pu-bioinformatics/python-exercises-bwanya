@@ -31,4 +31,5 @@ while choice != 'q':
             print(choice.lower())
         else:
             if choice.lower =="q":
-                print("Please pick your card. Thank you for using our services")                           
+                print("Please pick your card. Thank you for using our services")
+#CK: What happens when the choice is not valid? Add an else block   -1                        
